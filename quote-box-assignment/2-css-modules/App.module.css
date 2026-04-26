@@ -1,0 +1,30 @@
+/* CSS Modules — same look as the plain CSS version, but the class names
+   here will be locally scoped to whichever component imports them.
+   The build tool rewrites them at compile time to something like
+   "App_quoteBox__a1b2c3" so they can't collide with classes elsewhere. */
+
+.quoteBox {
+  background-color: #f4f1ea;
+  padding: 24px 32px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.quoteText {
+  font-size: 20px;
+  font-style: italic;
+  color: #333;
+  line-height: 1.5;
+  margin: 0 0 12px 0;
+}
+
+.quoteAuthor {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  text-align: right;
+  margin: 0;
+}

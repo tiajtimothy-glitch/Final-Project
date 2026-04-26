@@ -357,7 +357,7 @@ function App() {
         {renderPage()}
       </main>
 
-      <aside className="trends">
+      <aside className="trends"></aside>
         <div className="search-wrap">
           <input
             className="search"
@@ -370,7 +370,7 @@ function App() {
             }}
           />
         </div>
-        <div className="trends-card">
+        <div className="trends-card"></div>
           <h3>What's happening</h3>
           <div className="trend" onClick={() => { setSearchTerm('React'); setPage('explore') }}>
             <small>Trending in Tech</small>

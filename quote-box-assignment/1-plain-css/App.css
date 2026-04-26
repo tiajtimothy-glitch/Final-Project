@@ -1,0 +1,27 @@
+/* Plain CSS — class names match the className strings in App.jsx */
+
+.quote-box {
+  background-color: #f4f1ea;
+  padding: 24px 32px;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 40px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.quote-text {
+  font-size: 20px;
+  font-style: italic;
+  color: #333;
+  line-height: 1.5;
+  margin: 0 0 12px 0;
+}
+
+.quote-author {
+  font-size: 16px;
+  font-weight: bold;
+  color: #555;
+  text-align: right;
+  margin: 0;
+}
